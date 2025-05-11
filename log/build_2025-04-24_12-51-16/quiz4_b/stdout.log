@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target analysis[0m
+[ 33%] Built target analysis
+[35m[1mConsolidate compiler generated dependencies of target utest[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 66%] Built target utest
+[100%] Built target listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/listener
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/utest
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/package_run_dependencies/quiz4_b
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/parent_prefix_path/quiz4_b
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.bash
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.sh
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.zsh
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.dsv
+-- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/packages/quiz4_b
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig-version.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.xml

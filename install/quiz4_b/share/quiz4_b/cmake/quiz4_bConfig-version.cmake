@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/build/quiz4_b/ament_cmake_core/quiz4_bConfig-version.cmake

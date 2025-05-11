@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/ros2_ws/src/build/quiz4_b/listener" "/home/student/ros2_ws/src/build/quiz4_b/test/utest" "TARGETS" "listener" "utest" "DESTINATION" "lib/quiz4_b")

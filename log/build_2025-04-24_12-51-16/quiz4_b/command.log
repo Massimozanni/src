@@ -1,0 +1,4 @@
+Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b
+Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b

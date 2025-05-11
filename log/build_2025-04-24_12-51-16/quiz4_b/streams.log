@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target analysis[0m
+[0.082s] [ 33%] Built target analysis
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target utest[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.113s] [ 66%] Built target utest
+[0.118s] [100%] Built target listener
+[0.133s] Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+[0.144s] Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b
+[0.153s] -- Install configuration: ""
+[0.153s] -- Execute custom install script
+[0.154s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/listener
+[0.154s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/utest
+[0.154s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/package_run_dependencies/quiz4_b
+[0.154s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/parent_prefix_path/quiz4_b
+[0.155s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.sh
+[0.155s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.dsv
+[0.155s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.sh
+[0.155s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.dsv
+[0.155s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.bash
+[0.156s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.sh
+[0.156s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.zsh
+[0.156s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.dsv
+[0.156s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.dsv
+[0.167s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/packages/quiz4_b
+[0.167s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig.cmake
+[0.167s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig-version.cmake
+[0.168s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.xml
+[0.170s] Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b

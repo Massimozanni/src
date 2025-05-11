@@ -1,0 +1,8 @@
+source;share/quiz4_b/hook/cmake_prefix_path.ps1
+source;share/quiz4_b/hook/cmake_prefix_path.dsv
+source;share/quiz4_b/hook/cmake_prefix_path.sh
+source;share/quiz4_b/local_setup.bash
+source;share/quiz4_b/local_setup.dsv
+source;share/quiz4_b/local_setup.ps1
+source;share/quiz4_b/local_setup.sh
+source;share/quiz4_b/local_setup.zsh

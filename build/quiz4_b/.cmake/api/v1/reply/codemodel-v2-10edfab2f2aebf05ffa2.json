@@ -1,0 +1,116 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aeb4c979fcd53c8707c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "quiz4_b",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "analysis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-analysis-df8871facac8c2d429df.json",
+					"name" : "analysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-4bb12a34c927864e5b6f.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quiz4_b_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quiz4_b_uninstall-636d9385331287695d35.json",
+					"name" : "quiz4_b_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b08e8efc6e650573b8a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-utest-543de5437e301ed58ff7.json",
+					"name" : "utest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/ros2_ws/src/build/quiz4_b",
+		"source" : "/home/student/ros2_ws/src/b"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

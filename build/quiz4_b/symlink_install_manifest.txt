@@ -1,0 +1,17 @@
+/home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/listener
+/home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/utest
+/home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/package_run_dependencies/quiz4_b
+/home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/parent_prefix_path/quiz4_b
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.sh
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.dsv
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.bash
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.sh
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.zsh
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.dsv
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.dsv
+/home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/packages/quiz4_b
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig.cmake
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig-version.cmake
+/home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.xml

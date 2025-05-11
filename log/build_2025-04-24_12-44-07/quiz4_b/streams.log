@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/b -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/quiz4_b
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.239s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.576s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.601s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.640s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.724s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.841s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.891s] -- Looking for pthread.h
+[0.974s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.058s] -- Found Threads: TRUE  
+[1.112s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.147s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[1.220s] -- Configuring done
+[1.233s] -- Generating done
+[1.238s] -- Build files have been written to: /home/student/ros2_ws/src/build/quiz4_b
+[1.251s] Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/b -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/quiz4_b
+[1.254s] Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+[1.310s] [ 16%] [32mBuilding CXX object CMakeFiles/analysis.dir/src/analysis.cpp.o[0m
+[1.564s] [ 33%] [32m[1mLinking CXX static library libanalysis.a[0m
+[1.600s] [ 33%] Built target analysis
+[1.624s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[1.625s] [ 66%] [32mBuilding CXX object test/CMakeFiles/utest.dir/utest.cpp.o[0m
+[2.507s] [ 83%] [32m[1mLinking CXX executable utest[0m
+[2.610s] [ 83%] Built target utest
+[10.452s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.869s] [100%] Built target listener
+[10.883s] Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz4_b -- -j8 -l8
+[10.894s] Invoking command in '/home/student/ros2_ws/src/build/quiz4_b': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b
+[10.903s] -- Install configuration: ""
+[10.903s] -- Execute custom install script
+[10.904s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/listener
+[10.914s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/lib/quiz4_b/utest
+[10.925s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/package_run_dependencies/quiz4_b
+[10.935s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/parent_prefix_path/quiz4_b
+[10.945s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.sh
+[10.957s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/ament_prefix_path.dsv
+[10.968s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.sh
+[10.978s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/environment/path.dsv
+[10.988s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.bash
+[10.998s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.sh
+[11.008s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.zsh
+[11.018s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/local_setup.dsv
+[11.028s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.dsv
+[11.039s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/ament_index/resource_index/packages/quiz4_b
+[11.049s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig.cmake
+[11.058s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/cmake/quiz4_bConfig-version.cmake
+[11.068s] -- Symlinking: /home/student/ros2_ws/src/install/quiz4_b/share/quiz4_b/package.xml
+[11.082s] Invoked command in '/home/student/ros2_ws/src/build/quiz4_b' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz4_b
