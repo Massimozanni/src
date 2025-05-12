@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000841] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000884] (-) JobUnselected: {'identifier': 'grid_example'}
+[0.000906] (-) JobUnselected: {'identifier': 'quiz4_b'}
+[0.000925] (-) JobUnselected: {'identifier': 'srv_client_checks'}
+[0.000945] (-) JobUnselected: {'identifier': 'week10_laser'}
+[0.000965] (-) JobUnselected: {'identifier': 'week10_quad'}
+[0.000981] (-) JobUnselected: {'identifier': 'week11_quad'}
+[0.001004] (quiz5) JobQueued: {'identifier': 'quiz5', 'dependencies': OrderedDict()}
+[0.001027] (quiz5) JobStarted: {'identifier': 'quiz5'}
+[0.019918] (quiz5) JobProgress: {'identifier': 'quiz5', 'progress': 'cmake'}
+[0.020472] (quiz5) Command: {'cmd': ['/usr/bin/cmake', '/home/student/ros2_ws/src/quiz5', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/quiz5'], 'cwd': '/home/student/ros2_ws/src/build/quiz5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1924'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labNVXMF8:@/tmp/.ICE-unix/2013,unix/labNVXMF8:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2806541a_7a42_4cae_b090_19891f6c44bd'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble'), ('UID', '1002'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/quiz5'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble')]), 'shell': False}
+[0.095468] (quiz5) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099427] (-) TimerEvent: {}
+[0.163657] (quiz5) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.171815] (quiz5) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199542] (-) TimerEvent: {}
+[0.253038] (quiz5) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263362] (quiz5) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263634] (quiz5) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.264030] (quiz5) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.267125] (quiz5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299673] (-) TimerEvent: {}
+[0.363548] (quiz5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.372611] (quiz5) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.372895] (quiz5) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.373438] (quiz5) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.377094] (quiz5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399776] (-) TimerEvent: {}
+[0.500133] (-) TimerEvent: {}
+[0.554469] (quiz5) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600246] (-) TimerEvent: {}
+[0.624241] (quiz5) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.662823] (quiz5) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700446] (-) TimerEvent: {}
+[0.712484] (quiz5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.718669] (quiz5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.728475] (quiz5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.743575] (quiz5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.769547] (quiz5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800636] (-) TimerEvent: {}
+[0.827726] (quiz5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.831084] (quiz5) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900750] (-) TimerEvent: {}
+[0.926696] (quiz5) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.960336] (quiz5) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000875] (-) TimerEvent: {}
+[1.008710] (quiz5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.019202] (quiz5) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101011] (-) TimerEvent: {}
+[1.109640] (quiz5) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.110317] (quiz5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201127] (-) TimerEvent: {}
+[1.205893] (quiz5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.207186] (quiz5) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.281475] (quiz5) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.301425] (-) TimerEvent: {}
+[1.341215] (quiz5) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.377881] (quiz5) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.401571] (-) TimerEvent: {}
+[1.404310] (quiz5) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.501680] (-) TimerEvent: {}
+[1.602101] (-) TimerEvent: {}
+[1.625912] (quiz5) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.677722] (quiz5) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.685985] (quiz5) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.686270] (quiz5) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.695705] (quiz5) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.702208] (-) TimerEvent: {}
+[1.730203] (quiz5) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.802334] (-) TimerEvent: {}
+[1.818034] (quiz5) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.902467] (-) TimerEvent: {}
+[1.905416] (quiz5) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.954387] (quiz5) StdoutLine: {'line': b'-- Generating done\n'}
+[1.963900] (quiz5) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/src/build/quiz5\n'}
+[1.981367] (quiz5) CommandEnded: {'returncode': 0}
+[1.982122] (quiz5) JobProgress: {'identifier': 'quiz5', 'progress': 'build'}
+[1.983535] (quiz5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/build/quiz5', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/build/quiz5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1924'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labNVXMF8:@/tmp/.ICE-unix/2013,unix/labNVXMF8:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2806541a_7a42_4cae_b090_19891f6c44bd'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble'), ('UID', '1002'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/quiz5'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble')]), 'shell': False}
+[2.002591] (-) TimerEvent: {}
+[2.045064] (quiz5) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.045419] (quiz5) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/laserprocessing.dir/src/laserprocessing.cpp.o\x1b[0m\n'}
+[2.045569] (quiz5) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.102729] (-) TimerEvent: {}
+[2.203123] (-) TimerEvent: {}
+[2.303517] (-) TimerEvent: {}
+[2.403882] (-) TimerEvent: {}
+[2.504253] (-) TimerEvent: {}
+[2.604620] (-) TimerEvent: {}
+[2.704982] (-) TimerEvent: {}
+[2.805416] (-) TimerEvent: {}
+[2.905861] (-) TimerEvent: {}
+[2.960405] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/laserprocessing.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point LaserProcessing::detectClosestCone()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.960673] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/laserprocessing.cpp:120:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kclosest_index\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.960758] (quiz5) StderrLine: {'line': b'  120 |     unsigned int \x1b[01;35m\x1b[Kclosest_index\x1b[m\x1b[K = 0;\n'}
+[2.960832] (quiz5) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.005995] (-) TimerEvent: {}
+[3.106394] (-) TimerEvent: {}
+[3.206782] (-) TimerEvent: {}
+[3.234517] (quiz5) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library liblaserprocessing.so\x1b[0m\n'}
+[3.306898] (-) TimerEvent: {}
+[3.373732] (quiz5) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.407040] (-) TimerEvent: {}
+[3.429478] (quiz5) StdoutLine: {'line': b'[ 45%] Built target gtest_main\n'}
+[3.507161] (-) TimerEvent: {}
+[3.607555] (-) TimerEvent: {}
+[3.707921] (-) TimerEvent: {}
+[3.774625] (quiz5) StdoutLine: {'line': b'[ 45%] Built target laserprocessing\n'}
+[3.801770] (quiz5) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sample.dir/src/detection_node.cpp.o\x1b[0m\n'}
+[3.802074] (quiz5) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sample.dir/src/main.cpp.o\x1b[0m\n'}
+[3.808057] (-) TimerEvent: {}
+[3.908430] (-) TimerEvent: {}
+[4.008768] (-) TimerEvent: {}
+[4.109096] (-) TimerEvent: {}
+[4.209431] (-) TimerEvent: {}
+[4.309817] (-) TimerEvent: {}
+[4.410151] (-) TimerEvent: {}
+[4.510525] (-) TimerEvent: {}
+[4.610913] (-) TimerEvent: {}
+[4.711339] (-) TimerEvent: {}
+[4.811775] (-) TimerEvent: {}
+[4.912190] (-) TimerEvent: {}
+[5.012639] (-) TimerEvent: {}
+[5.113074] (-) TimerEvent: {}
+[5.213515] (-) TimerEvent: {}
+[5.313893] (-) TimerEvent: {}
+[5.414320] (-) TimerEvent: {}
+[5.514880] (-) TimerEvent: {}
+[5.615308] (-) TimerEvent: {}
+[5.715827] (-) TimerEvent: {}
+[5.816218] (-) TimerEvent: {}
+[5.916642] (-) TimerEvent: {}
+[6.017124] (-) TimerEvent: {}
+[6.057178] (quiz5) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[6.117276] (-) TimerEvent: {}
+[6.124299] (quiz5) StdoutLine: {'line': b'[ 72%] Built target gtest\n'}
+[6.149755] (quiz5) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/test_quiz5_a1.dir/test/utest.cpp.o\x1b[0m\n'}
+[6.217416] (-) TimerEvent: {}
+[6.317824] (-) TimerEvent: {}
+[6.418257] (-) TimerEvent: {}
+[6.518684] (-) TimerEvent: {}
+[6.619146] (-) TimerEvent: {}
+[6.719593] (-) TimerEvent: {}
+[6.820079] (-) TimerEvent: {}
+[6.920563] (-) TimerEvent: {}
+[7.021036] (-) TimerEvent: {}
+[7.121463] (-) TimerEvent: {}
+[7.221879] (-) TimerEvent: {}
+[7.322310] (-) TimerEvent: {}
+[7.422736] (-) TimerEvent: {}
+[7.523209] (-) TimerEvent: {}
+[7.623628] (-) TimerEvent: {}
+[7.724543] (-) TimerEvent: {}
+[7.824960] (-) TimerEvent: {}
+[7.925395] (-) TimerEvent: {}
+[8.025847] (-) TimerEvent: {}
+[8.126246] (-) TimerEvent: {}
+[8.226646] (-) TimerEvent: {}
+[8.327029] (-) TimerEvent: {}
+[8.427452] (-) TimerEvent: {}
+[8.527879] (-) TimerEvent: {}
+[8.628296] (-) TimerEvent: {}
+[8.728724] (-) TimerEvent: {}
+[8.829155] (-) TimerEvent: {}
+[8.929569] (-) TimerEvent: {}
+[9.029955] (-) TimerEvent: {}
+[9.130477] (-) TimerEvent: {}
+[9.230945] (-) TimerEvent: {}
+[9.331434] (-) TimerEvent: {}
+[9.431873] (-) TimerEvent: {}
+[9.532309] (-) TimerEvent: {}
+[9.632766] (-) TimerEvent: {}
+[9.733148] (-) TimerEvent: {}
+[9.833545] (-) TimerEvent: {}
+[9.933926] (-) TimerEvent: {}
+[10.034333] (-) TimerEvent: {}
+[10.134714] (-) TimerEvent: {}
+[10.235180] (-) TimerEvent: {}
+[10.335651] (-) TimerEvent: {}
+[10.404440] (quiz5) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_quiz5_a1\x1b[0m\n'}
+[10.435834] (-) TimerEvent: {}
+[10.536327] (-) TimerEvent: {}
+[10.636839] (-) TimerEvent: {}
+[10.737252] (-) TimerEvent: {}
+[10.743836] (quiz5) StdoutLine: {'line': b'[ 90%] Built target test_quiz5_a1\n'}
+[10.837378] (-) TimerEvent: {}
+[10.937730] (-) TimerEvent: {}
+[11.038169] (-) TimerEvent: {}
+[11.138631] (-) TimerEvent: {}
+[11.239048] (-) TimerEvent: {}
+[11.339410] (-) TimerEvent: {}
+[11.439738] (-) TimerEvent: {}
+[11.540169] (-) TimerEvent: {}
+[11.640691] (-) TimerEvent: {}
+[11.741126] (-) TimerEvent: {}
+[11.841510] (-) TimerEvent: {}
+[11.941871] (-) TimerEvent: {}
+[12.042290] (-) TimerEvent: {}
+[12.142709] (-) TimerEvent: {}
+[12.243094] (-) TimerEvent: {}
+[12.343466] (-) TimerEvent: {}
+[12.443847] (-) TimerEvent: {}
+[12.544186] (-) TimerEvent: {}
+[12.644620] (-) TimerEvent: {}
+[12.745050] (-) TimerEvent: {}
+[12.845445] (-) TimerEvent: {}
+[12.945917] (-) TimerEvent: {}
+[13.046396] (-) TimerEvent: {}
+[13.146843] (-) TimerEvent: {}
+[13.161445] (quiz5) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sample\x1b[0m\n'}
+[13.246959] (-) TimerEvent: {}
+[13.347321] (-) TimerEvent: {}
+[13.447700] (-) TimerEvent: {}
+[13.548153] (-) TimerEvent: {}
+[13.648647] (-) TimerEvent: {}
+[13.749023] (-) TimerEvent: {}
+[13.778447] (quiz5) StdoutLine: {'line': b'[100%] Built target sample\n'}
+[13.792463] (quiz5) CommandEnded: {'returncode': 0}
+[13.793411] (quiz5) JobProgress: {'identifier': 'quiz5', 'progress': 'install'}
+[13.803308] (quiz5) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/src/build/quiz5'], 'cwd': '/home/student/ros2_ws/src/build/quiz5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1924'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labNVXMF8:@/tmp/.ICE-unix/2013,unix/labNVXMF8:/tmp/.ICE-unix/2013'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2806541a_7a42_4cae_b090_19891f6c44bd'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble'), ('UID', '1002'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/quiz5'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble')]), 'shell': False}
+[13.812084] (quiz5) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.812686] (quiz5) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.813177] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/sample\n'}
+[13.823755] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/liblaserprocessing.so\n'}
+[13.833783] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/metadata.yaml\n'}
+[13.843884] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3\n'}
+[13.849189] (-) TimerEvent: {}
+[13.853058] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/package_run_dependencies/quiz5\n'}
+[13.862547] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/parent_prefix_path/quiz5\n'}
+[13.871775] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.sh\n'}
+[13.881278] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.dsv\n'}
+[13.891657] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.sh\n'}
+[13.901255] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.dsv\n'}
+[13.911081] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.bash\n'}
+[13.920420] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.sh\n'}
+[13.930520] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.zsh\n'}
+[13.941209] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.dsv\n'}
+[13.949484] (-) TimerEvent: {}
+[13.951759] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.dsv\n'}
+[13.961879] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/packages/quiz5\n'}
+[13.972156] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config.cmake\n'}
+[13.982288] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config-version.cmake\n'}
+[13.992822] (quiz5) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.xml\n'}
+[14.004555] (quiz5) CommandEnded: {'returncode': 0}
+[14.045667] (quiz5) JobEnded: {'identifier': 'quiz5', 'rc': 0}
+[14.046661] (-) EventReactorShutdown: {}

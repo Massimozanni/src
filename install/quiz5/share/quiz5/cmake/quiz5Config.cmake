@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/build/quiz5/ament_cmake_core/quiz5Config.cmake

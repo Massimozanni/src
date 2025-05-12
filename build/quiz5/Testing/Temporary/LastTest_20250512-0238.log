@@ -1,0 +1,86 @@
+Start testing: May 12 02:38 UTC
+----------------------------------------------------------
+1/1 Testing: test_quiz5_a1
+1/1 Test: test_quiz5_a1
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_ros/cmake/run_test_isolated.py" "/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml" "--package-name" "quiz5" "--output-file" "/home/student/ros2_ws/src/build/quiz5/ament_cmake_gtest/test_quiz5_a1.txt" "--command" "/home/student/ros2_ws/src/build/quiz5/test_quiz5_a1" "--gtest_output=xml:/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml"
+Directory: /home/student/ros2_ws/src/build/quiz5
+"test_quiz5_a1" start time: May 12 02:38 UTC
+Output:
+----------------------------------------------------------
+Running with ROS_DOMAIN_ID 1
+-- run_test.py: invoking following command in '/home/student/ros2_ws/src/build/quiz5':
+ - /home/student/ros2_ws/src/build/quiz5/test_quiz5_a1 --gtest_output=xml:/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from LaserProcessing
+[ RUN      ] LaserProcessing.CountReturns
+[INFO] [1747017516.808919267] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+[       OK ] LaserProcessing.CountReturns (220 ms)
+[ RUN      ] LaserProcessing.CountSegments
+[INFO] [1747017516.989316156] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+Point 99 to 100 distance: 0.0342381
+Point 100 to 101 distance: 0.0472485
+Point 101 to 102 distance: 0.0206319
+Point 102 to 103 distance: 0.0344398
+Point 103 to 104 distance: 0.024021
+Point 104 to 105 distance: 0.0218282
+Point 105 to 106 distance: 0.0303914
+Point 106 to 107 distance: 0.0207099
+Point 107 to 108 distance: 0.0208248
+Point 108 to 109 distance: 0.0540692
+Point 255 to 256 distance: 0.0889491
+Point 256 to 257 distance: 0.0696279
+Point 257 to 258 distance: 0.0989174
+Point 272 to 273 distance: 0.136952
+Point 337 to 338 distance: 0.123365
+Point 371 to 372 distance: 0.0700833
+Point 372 to 373 distance: 0.0746524
+Point 539 to 540 distance: 0.0270957
+Point 540 to 541 distance: 0.0229353
+Point 541 to 542 distance: 0.022974
+Point 542 to 543 distance: 0.0306527
+Point 543 to 544 distance: 0.0234109
+Point 544 to 545 distance: 0.0288068
+Point 545 to 546 distance: 0.0232425
+Point 546 to 547 distance: 0.031035
+Point 547 to 548 distance: 0.065336
+Point 562 to 563 distance: 0.176272
+[       OK ] LaserProcessing.CountSegments (3 ms)
+[ RUN      ] LaserProcessing.DetectClosestCone
+[INFO] [1747017516.993727460] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+/home/student/ros2_ws/src/quiz5/test/utest.cpp:127: Failure
+The difference between pt.x and 2.04752 is 2.04752, which exceeds 0.1, where
+pt.x evaluates to 0,
+2.04752 evaluates to 2.04752, and
+0.1 evaluates to 0.10000000000000001.
+/home/student/ros2_ws/src/quiz5/test/utest.cpp:128: Failure
+The difference between pt.y and -3.67013 is 3.6701299999999999, which exceeds 0.1, where
+pt.y evaluates to 0,
+-3.67013 evaluates to -3.6701299999999999, and
+0.1 evaluates to 0.10000000000000001.
+[  FAILED  ] LaserProcessing.DetectClosestCone (5 ms)
+[----------] 3 tests from LaserProcessing (228 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (228 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LaserProcessing.DetectClosestCone
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml'
+-- run_test.py: verify result file '/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml'
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Failed.
+"test_quiz5_a1" end time: May 12 02:38 UTC
+"test_quiz5_a1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 12 02:38 UTC
+
+gtest =   0.38 sec*proc
+
