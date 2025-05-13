@@ -109,6 +109,12 @@ sample: CMakeFiles/sample.dir/src/main.cpp.o
 sample: CMakeFiles/sample.dir/src/detection_node.cpp.o
 sample: CMakeFiles/sample.dir/build.make
 sample: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
 sample: liblaserprocessing.so
 sample: /opt/ros/humble/lib/libtf2_ros.so
 sample: /opt/ros/humble/lib/libtf2.so
@@ -140,6 +146,8 @@ sample: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 sample: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 sample: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 sample: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
+sample: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 sample: /opt/ros/humble/lib/librclcpp.so
 sample: /opt/ros/humble/lib/liblibstatistics_collector.so
 sample: /opt/ros/humble/lib/librcl.so

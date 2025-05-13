@@ -1,0 +1,6 @@
+[ 18%] Built target laserprocessing
+[ 54%] Built target gtest
+[ 54%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target sample[0m
+[ 72%] Built target test_quiz5_a1
+[ 81%] [32mBuilding CXX object CMakeFiles/sample.dir/src/detection_node.cpp.o[0m

@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/student/ros2_ws/src/build/quiz5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target laserprocessing[0m
+[0.081s] [ 18%] Built target gtest_main
+[0.082s] [ 36%] Built target gtest
+[0.085s] [ 45%] [32mBuilding CXX object CMakeFiles/laserprocessing.dir/src/laserprocessing.cpp.o[0m
+[0.839s] [ 54%] [32m[1mLinking CXX shared library liblaserprocessing.so[0m
+[0.989s] [ 54%] Built target laserprocessing
+[1.020s] [ 63%] [32m[1mLinking CXX executable test_quiz5_a1[0m
+[1.022s] [ 72%] [32m[1mLinking CXX executable sample[0m
+[1.275s] [ 81%] Built target test_quiz5_a1
+[1.534s] [100%] Built target sample
+[1.550s] Invoked command in '/home/student/ros2_ws/src/build/quiz5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8
+[1.562s] Invoking command in '/home/student/ros2_ws/src/build/quiz5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz5
+[1.569s] -- Install configuration: ""
+[1.570s] -- Execute custom install script
+[1.570s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/sample
+[1.570s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/liblaserprocessing.so
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/metadata.yaml
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/package_run_dependencies/quiz5
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/parent_prefix_path/quiz5
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.sh
+[1.571s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.dsv
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.sh
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.dsv
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.bash
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.sh
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.zsh
+[1.572s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.dsv
+[1.572s] -- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.dsv
+[1.582s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/packages/quiz5
+[1.582s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config.cmake
+[1.582s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config-version.cmake
+[1.582s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.xml
+[1.585s] Invoked command in '/home/student/ros2_ws/src/build/quiz5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz5

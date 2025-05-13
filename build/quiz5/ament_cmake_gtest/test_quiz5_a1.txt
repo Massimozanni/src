@@ -6,10 +6,10 @@ Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
 [----------] Global test environment set-up.
 [----------] 3 tests from LaserProcessing
 [ RUN      ] LaserProcessing.CountReturns
-[INFO] [1747017516.808919267] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
-[       OK ] LaserProcessing.CountReturns (220 ms)
+[INFO] [1747029752.568050998] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+[       OK ] LaserProcessing.CountReturns (11 ms)
 [ RUN      ] LaserProcessing.CountSegments
-[INFO] [1747017516.989316156] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+[INFO] [1747029752.577778376] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
 Point 99 to 100 distance: 0.0342381
 Point 100 to 101 distance: 0.0472485
 Point 101 to 102 distance: 0.0206319
@@ -39,29 +39,15 @@ Point 547 to 548 distance: 0.065336
 Point 562 to 563 distance: 0.176272
 [       OK ] LaserProcessing.CountSegments (3 ms)
 [ RUN      ] LaserProcessing.DetectClosestCone
-[INFO] [1747017516.993727460] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
-/home/student/ros2_ws/src/quiz5/test/utest.cpp:127: Failure
-The difference between pt.x and 2.04752 is 2.04752, which exceeds 0.1, where
-pt.x evaluates to 0,
-2.04752 evaluates to 2.04752, and
-0.1 evaluates to 0.10000000000000001.
-/home/student/ros2_ws/src/quiz5/test/utest.cpp:128: Failure
-The difference between pt.y and -3.67013 is 3.6701299999999999, which exceeds 0.1, where
-pt.y evaluates to 0,
--3.67013 evaluates to -3.6701299999999999, and
-0.1 evaluates to 0.10000000000000001.
-[  FAILED  ] LaserProcessing.DetectClosestCone (5 ms)
-[----------] 3 tests from LaserProcessing (228 ms total)
+[INFO] [1747029752.580588099] [rosbag2_storage]: Opened database '/home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3' for READ_ONLY.
+[       OK ] LaserProcessing.DetectClosestCone (2 ms)
+[----------] 3 tests from LaserProcessing (16 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (228 ms total)
-[  PASSED  ] 2 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] LaserProcessing.DetectClosestCone
-
- 1 FAILED TEST
+[==========] 3 tests from 1 test suite ran. (16 ms total)
+[  PASSED  ] 3 tests.
 
 
--- run_test.py: return code 1
+-- run_test.py: return code 0
 -- run_test.py: inject classname prefix into gtest result file '/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml'
 -- run_test.py: verify result file '/home/student/ros2_ws/src/build/quiz5/test_results/quiz5/test_quiz5_a1.gtest.xml'

@@ -1,0 +1,25 @@
+[ 18%] Built target laserprocessing
+[ 36%] Built target gtest
+[ 54%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target sample[0m
+[ 72%] Built target test_quiz5_a1
+[ 81%] [32mBuilding CXX object CMakeFiles/sample.dir/src/detection_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+   22 |     service_[01;31m[K [m[K[32m[Kthis[m[K->create_service<std_srvs::srv::Trigger>(
+      |             [01;31m[K^[m[K[32m[K~~~~[m[K
+      |             [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   22 |     [01;35m[Kservice_[m[K this->create_service<std_srvs::srv::Trigger>(
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:[m[K In member function ‘[01m[Kvoid Detection::detect()[m[K’:
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:65:59:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Kres[m[K’
+   65 |         std::shared_ptr<std_srvs::srv::Trigger::Response> [01;31m[Kres[m[K;
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq[m[K’?
+   68 |             [01;31m[Kres[m[K->success = true;
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kreq[m[K
+gmake[2]: *** [CMakeFiles/sample.dir/build.make:90: CMakeFiles/sample.dir/src/detection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/sample.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

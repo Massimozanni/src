@@ -1,0 +1,43 @@
+[0.027s] Invoking command in '/home/student/ros2_ws/src/build/quiz5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target laserprocessing[0m
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.160s] [  9%] [32mBuilding CXX object CMakeFiles/laserprocessing.dir/src/laserprocessing.cpp.o[0m
+[0.160s] [ 27%] Built target gtest_main
+[0.161s] [ 45%] Built target gtest
+[0.840s] [01m[K/home/student/ros2_ws/src/quiz5/src/laserprocessing.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Point LaserProcessing::detectClosestCone()[m[K’:
+[0.840s] [01m[K/home/student/ros2_ws/src/quiz5/src/laserprocessing.cpp:108:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kclosest_index[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[0.840s]   108 |     unsigned int [01;35m[Kclosest_index[m[K = 0;
+[0.840s]       |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[1.114s] [ 54%] [32m[1mLinking CXX shared library liblaserprocessing.so[0m
+[1.614s] [ 54%] Built target laserprocessing
+[1.627s] [35m[1mConsolidate compiler generated dependencies of target test_quiz5_a1[0m
+[1.627s] [35m[1mConsolidate compiler generated dependencies of target sample[0m
+[1.657s] [ 63%] [32m[1mLinking CXX executable sample[0m
+[1.657s] [ 72%] [32m[1mLinking CXX executable test_quiz5_a1[0m
+[2.068s] [ 81%] Built target test_quiz5_a1
+[2.305s] [100%] Built target sample
+[2.318s] Invoked command in '/home/student/ros2_ws/src/build/quiz5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8
+[2.329s] Invoking command in '/home/student/ros2_ws/src/build/quiz5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz5
+[2.337s] -- Install configuration: ""
+[2.338s] -- Execute custom install script
+[2.338s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/sample
+[2.338s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/lib/quiz5/liblaserprocessing.so
+[2.338s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/metadata.yaml
+[2.338s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/data/ros2/ros2.db3
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/package_run_dependencies/quiz5
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/parent_prefix_path/quiz5
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.sh
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/ament_prefix_path.dsv
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.sh
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/environment/path.dsv
+[2.339s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.bash
+[2.340s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.sh
+[2.340s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.zsh
+[2.340s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/local_setup.dsv
+[2.340s] -- Symlinking: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.dsv
+[2.350s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/ament_index/resource_index/packages/quiz5
+[2.350s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config.cmake
+[2.350s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/cmake/quiz5Config-version.cmake
+[2.350s] -- Up-to-date symlink: /home/student/ros2_ws/src/install/quiz5/share/quiz5/package.xml
+[2.353s] Invoked command in '/home/student/ros2_ws/src/build/quiz5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/build/quiz5

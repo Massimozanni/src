@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/home/student/ros2_ws/src/build/quiz5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8
+[0.090s] [ 18%] Built target laserprocessing
+[0.092s] [ 36%] Built target gtest
+[0.092s] [ 54%] Built target gtest_main
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target sample[0m
+[0.122s] [ 72%] Built target test_quiz5_a1
+[0.131s] [ 81%] [32mBuilding CXX object CMakeFiles/sample.dir/src/detection_node.cpp.o[0m
+[2.567s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:[m[K In constructor ‘[01m[KDetection::Detection()[m[K’:
+[2.567s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+[2.567s]    22 |     service_[01;31m[K [m[K[32m[Kthis[m[K->create_service<std_srvs::srv::Trigger>(
+[2.567s]       |             [01;31m[K^[m[K[32m[K~~~~[m[K
+[2.567s]       |             [32m[K;[m[K
+[2.568s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.568s]    22 |     [01;35m[Kservice_[m[K this->create_service<std_srvs::srv::Trigger>(
+[2.568s]       |     [01;35m[K^~~~~~~~[m[K
+[2.572s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:[m[K In member function ‘[01m[Kvoid Detection::detect()[m[K’:
+[2.572s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:65:59:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Kres[m[K’
+[2.572s]    65 |         std::shared_ptr<std_srvs::srv::Trigger::Response> [01;31m[Kres[m[K;
+[2.573s]       |                                                           [01;31m[K^~~[m[K
+[2.577s] [01m[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq[m[K’?
+[2.577s]    68 |             [01;31m[Kres[m[K->success = true;
+[2.577s]       |             [01;31m[K^~~[m[K
+[2.577s]       |             [32m[Kreq[m[K
+[4.951s] gmake[2]: *** [CMakeFiles/sample.dir/build.make:90: CMakeFiles/sample.dir/src/detection_node.cpp.o] Error 1
+[4.952s] gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/sample.dir/all] Error 2
+[4.952s] gmake: *** [Makefile:146: all] Error 2
+[4.955s] Invoked command in '/home/student/ros2_ws/src/build/quiz5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/build/quiz5 -- -j8 -l8

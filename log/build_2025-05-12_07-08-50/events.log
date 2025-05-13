@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000791] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000931] (-) JobUnselected: {'identifier': 'grid_example'}
+[0.000957] (-) JobUnselected: {'identifier': 'quiz4_b'}
+[0.000978] (-) JobUnselected: {'identifier': 'srv_client_checks'}
+[0.001000] (-) JobUnselected: {'identifier': 'week10_laser'}
+[0.001032] (-) JobUnselected: {'identifier': 'week10_quad'}
+[0.001073] (-) JobUnselected: {'identifier': 'week11_quad'}
+[0.001100] (quiz5) JobQueued: {'identifier': 'quiz5', 'dependencies': OrderedDict()}
+[0.001127] (quiz5) JobStarted: {'identifier': 'quiz5'}
+[0.010369] (quiz5) JobProgress: {'identifier': 'quiz5', 'progress': 'cmake'}
+[0.011136] (quiz5) JobProgress: {'identifier': 'quiz5', 'progress': 'build'}
+[0.012093] (quiz5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/build/quiz5', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/build/quiz5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2045'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2158'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labNVXMF8:@/tmp/.ICE-unix/2135,unix/labNVXMF8:/tmp/.ICE-unix/2135'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57768036_cc50_41dc_aad2_2a5ef069db72'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble'), ('UID', '1002'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/build/quiz5'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/week11_quad:/home/student/ros2_ws/install/week10_quad:/home/student/ros2_ws/install/week10_laser:/home/student/ros2_ws/install/srv_client_checks:/home/student/ros2_ws/install/quiz5:/home/student/ros2_ws/install/quiz4_b:/home/student/ros2_ws/install/grid_example:/home/student/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/student/ros2_ws/install/examples_rclcpp_minimal_publisher:/opt/ros/humble')]), 'shell': False}
+[0.047000] (quiz5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099415] (-) TimerEvent: {}
+[0.175229] (quiz5) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.185453] (quiz5) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199520] (-) TimerEvent: {}
+[0.214458] (quiz5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.217089] (quiz5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.226143] (quiz5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.242219] (quiz5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259480] (quiz5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299662] (-) TimerEvent: {}
+[0.308845] (quiz5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.311353] (quiz5) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399819] (-) TimerEvent: {}
+[0.429989] (quiz5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.485890] (quiz5) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.500010] (-) TimerEvent: {}
+[0.517936] (quiz5) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.535770] (quiz5) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.539741] (quiz5) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.600136] (-) TimerEvent: {}
+[0.624152] (quiz5) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.627368] (quiz5) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.628978] (quiz5) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.630508] (quiz5) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.633461] (quiz5) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.668043] (quiz5) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.700271] (-) TimerEvent: {}
+[0.713865] (quiz5) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.795251] (quiz5) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800397] (-) TimerEvent: {}
+[0.822996] (quiz5) StdoutLine: {'line': b'-- Generating done\n'}
+[0.834312] (quiz5) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/src/build/quiz5\n'}
+[0.870862] (quiz5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.871319] (quiz5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.872078] (quiz5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laserprocessing\x1b[0m\n'}
+[0.889788] (quiz5) StdoutLine: {'line': b'[ 18%] Built target gtest_main\n'}
+[0.890137] (quiz5) StdoutLine: {'line': b'[ 36%] Built target laserprocessing\n'}
+[0.890647] (quiz5) StdoutLine: {'line': b'[ 54%] Built target gtest\n'}
+[0.900491] (-) TimerEvent: {}
+[0.902811] (quiz5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_quiz5_a1\x1b[0m\n'}
+[0.903424] (quiz5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sample\x1b[0m\n'}
+[0.929390] (quiz5) StdoutLine: {'line': b'[ 72%] Built target test_quiz5_a1\n'}
+[0.930936] (quiz5) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/sample.dir/src/main.cpp.o\x1b[0m\n'}
+[0.932368] (quiz5) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sample.dir/src/detection_node.cpp.o\x1b[0m\n'}
+[1.000643] (-) TimerEvent: {}
+[1.101118] (-) TimerEvent: {}
+[1.201556] (-) TimerEvent: {}
+[1.302094] (-) TimerEvent: {}
+[1.402591] (-) TimerEvent: {}
+[1.503078] (-) TimerEvent: {}
+[1.603563] (-) TimerEvent: {}
+[1.704062] (-) TimerEvent: {}
+[1.804531] (-) TimerEvent: {}
+[1.904996] (-) TimerEvent: {}
+[2.005475] (-) TimerEvent: {}
+[2.105976] (-) TimerEvent: {}
+[2.206494] (-) TimerEvent: {}
+[2.306935] (-) TimerEvent: {}
+[2.407361] (-) TimerEvent: {}
+[2.507787] (-) TimerEvent: {}
+[2.608230] (-) TimerEvent: {}
+[2.708642] (-) TimerEvent: {}
+[2.809147] (-) TimerEvent: {}
+[2.909600] (-) TimerEvent: {}
+[3.010091] (-) TimerEvent: {}
+[3.112131] (-) TimerEvent: {}
+[3.212606] (-) TimerEvent: {}
+[3.313106] (-) TimerEvent: {}
+[3.413631] (-) TimerEvent: {}
+[3.514133] (-) TimerEvent: {}
+[3.614681] (-) TimerEvent: {}
+[3.655381] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDetection::Detection()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.655755] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.655870] (quiz5) StderrLine: {'line': b'   22 |     service_\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kthis\x1b[m\x1b[K->create_service<std_srvs::srv::Trigger>(\n'}
+[3.655979] (quiz5) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[3.656096] (quiz5) StderrLine: {'line': b'      |             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.656194] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:22:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.656300] (quiz5) StderrLine: {'line': b'   22 |     \x1b[01;35m\x1b[Kservice_\x1b[m\x1b[K this->create_service<std_srvs::srv::Trigger>(\n'}
+[3.656399] (quiz5) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.661921] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Detection::detect()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.662189] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:65:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid declarator before \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.662308] (quiz5) StderrLine: {'line': b'   65 |         std::shared_ptr<std_srvs::srv::Trigger::Response> \x1b[01;31m\x1b[Kres\x1b[m\x1b[K;\n'}
+[3.662406] (quiz5) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.667010] (quiz5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/quiz5/src/detection_node.cpp:68:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.667169] (quiz5) StderrLine: {'line': b'   68 |             \x1b[01;31m\x1b[Kres\x1b[m\x1b[K->success = true;\n'}
+[3.667300] (quiz5) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.667420] (quiz5) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kreq\x1b[m\x1b[K\n'}
+[3.714806] (-) TimerEvent: {}
+[3.815255] (-) TimerEvent: {}
+[3.915761] (-) TimerEvent: {}
+[4.016366] (-) TimerEvent: {}
+[4.116845] (-) TimerEvent: {}
+[4.217386] (-) TimerEvent: {}
+[4.317902] (-) TimerEvent: {}
+[4.418366] (-) TimerEvent: {}
+[4.518891] (-) TimerEvent: {}
+[4.619379] (-) TimerEvent: {}
+[4.719864] (-) TimerEvent: {}
+[4.820402] (-) TimerEvent: {}
+[4.920923] (-) TimerEvent: {}
+[5.021406] (-) TimerEvent: {}
+[5.121863] (-) TimerEvent: {}
+[5.222405] (-) TimerEvent: {}
+[5.322971] (-) TimerEvent: {}
+[5.423450] (-) TimerEvent: {}
+[5.524008] (-) TimerEvent: {}
+[5.624501] (-) TimerEvent: {}
+[5.725011] (-) TimerEvent: {}
+[5.825594] (-) TimerEvent: {}
+[5.926105] (-) TimerEvent: {}
+[6.026603] (-) TimerEvent: {}
+[6.103892] (quiz5) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sample.dir/build.make:90: CMakeFiles/sample.dir/src/detection_node.cpp.o] Error 1\n'}
+[6.104372] (quiz5) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/sample.dir/all] Error 2\n'}
+[6.104530] (quiz5) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.107289] (quiz5) CommandEnded: {'returncode': 2}
+[6.120034] (quiz5) JobEnded: {'identifier': 'quiz5', 'rc': 2}
+[6.121097] (-) EventReactorShutdown: {}

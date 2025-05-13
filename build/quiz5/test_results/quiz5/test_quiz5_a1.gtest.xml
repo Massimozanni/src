@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="1" disabled="0" errors="0" time="0.228" timestamp="2025-05-12T02:38:36" name="AllTests">
-  <testsuite name="LaserProcessing" tests="3" failures="1" disabled="0" errors="0" time="0.228" timestamp="2025-05-12T02:38:36">
-    <testcase name="CountReturns" status="run" result="completed" time="0.22" timestamp="2025-05-12T02:38:36" classname="quiz5.LaserProcessing" />
-    <testcase name="CountSegments" status="run" result="completed" time="0.003" timestamp="2025-05-12T02:38:36" classname="quiz5.LaserProcessing" />
-    <testcase name="DetectClosestCone" status="run" result="completed" time="0.005" timestamp="2025-05-12T02:38:36" classname="quiz5.LaserProcessing">
-      <failure message="/home/student/ros2_ws/src/quiz5/test/utest.cpp:127&#x0A;The difference between pt.x and 2.04752 is 2.04752, which exceeds 0.1, where&#x0A;pt.x evaluates to 0,&#x0A;2.04752 evaluates to 2.04752, and&#x0A;0.1 evaluates to 0.10000000000000001." type=""><![CDATA[/home/student/ros2_ws/src/quiz5/test/utest.cpp:127
-The difference between pt.x and 2.04752 is 2.04752, which exceeds 0.1, where
-pt.x evaluates to 0,
-2.04752 evaluates to 2.04752, and
-0.1 evaluates to 0.10000000000000001.]]></failure>
-      <failure message="/home/student/ros2_ws/src/quiz5/test/utest.cpp:128&#x0A;The difference between pt.y and -3.67013 is 3.6701299999999999, which exceeds 0.1, where&#x0A;pt.y evaluates to 0,&#x0A;-3.67013 evaluates to -3.6701299999999999, and&#x0A;0.1 evaluates to 0.10000000000000001." type=""><![CDATA[/home/student/ros2_ws/src/quiz5/test/utest.cpp:128
-The difference between pt.y and -3.67013 is 3.6701299999999999, which exceeds 0.1, where
-pt.y evaluates to 0,
--3.67013 evaluates to -3.6701299999999999, and
-0.1 evaluates to 0.10000000000000001.]]></failure>
-    </testcase>
+<testsuites tests="3" failures="0" disabled="0" errors="0" time="0.016" timestamp="2025-05-12T06:02:32" name="AllTests">
+  <testsuite name="LaserProcessing" tests="3" failures="0" disabled="0" errors="0" time="0.016" timestamp="2025-05-12T06:02:32">
+    <testcase name="CountReturns" status="run" result="completed" time="0.011" timestamp="2025-05-12T06:02:32" classname="quiz5.LaserProcessing" />
+    <testcase name="CountSegments" status="run" result="completed" time="0.003" timestamp="2025-05-12T06:02:32" classname="quiz5.LaserProcessing" />
+    <testcase name="DetectClosestCone" status="run" result="completed" time="0.002" timestamp="2025-05-12T06:02:32" classname="quiz5.LaserProcessing" />
   </testsuite>
 </testsuites>
